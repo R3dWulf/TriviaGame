@@ -16,98 +16,174 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="jumbotron">
-					<h1>Car Trivia</h1>
+					<h1>Trivia Game</h1>
+					<h3 style="text-align: center"><span id="timer">60</span></h3>
 				</div>
-				<div class="panel panel-default panel-heading">
-					<div class="panel panel-default panel-heading">
-						<button>Start</button>
-					</div>
+
+
+				<div class="panel panel-default panel-heading start_button" style="text-align: center">
+					<button>Start</button>
 				</div>
-				<div class="panel panel-default panel-heading">
-					What was the first electric car?
+
+				<div class="panel panel-default questions" >
+					<div class="panel-heading">
+						Which car kicked off the mucsle car era?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_1">
+							<!--inputs have to have same name or mulitple can be selected by user-->
+							A: Chevrolet Impala <input id="q1_C" type="radio" value="f" name="q1"> 
+							B: Ford Galaxy <input id="q1_W1" type="radio" value="f" name="q1"> 
+							C: Pontica GTO <input id="q1_W2" type="radio" value="c" name="q1"> 
+							D: Dodge Charger <input id="q1_W2" type="radio" value="f" name="q1"> 
+						</div>
 					</div>
 				</div>
-					<div class="panel panel-default panel-heading">
-					What is the second questions?
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						Fuel cells cars seen has the future of car technology but when was the technology first invented?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_2">				
+							A: 1939 <input id="q2" type="radio" value="f" name="q2"> 
+							B: 1991 <input id="q2" type="radio" value="f" name="q2"> 
+							C: 2015 <input id="q2" type="radio" value="f" name="q2"> 
+							D: 1838 <input id="q2" type="radio" value="c" name="q2"> 
+						</div>
 					</div>
 				</div>
-					<div class="panel panel-default panel-heading">
-					What is the third question?
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						Henry Ford tried for years to mass produce his cars more effficiently but it wasn't until he visited this that he got the idea of using an assembly line?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_3">
+							A: New York Industrial Bakery <input id="q3" type="radio" value="f" name="q3"> 
+							B: Chicago Meat Packing Plant <input id="q3" type="radio" value="c" name="q3"> 
+							C: Pennslyvannia Steel Mill <input id="q3" type="radio" value="f" name="q3"> 
+							D: Virgina Coal Mine <input id="q3" type="radio" value="f" name="q3"> 
+						</div>
 					</div>
 				</div>
-					<div class="panel panel-default panel-heading">
-					What is the fourth question?
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						Who made the modern automobile famous?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-							D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_4">
+							A: Nikolas Otto <input id="q4" type="radio" value="f" name="q4"> 
+							B: Henry Ford <input id="q4" type="radio" value="f" name="q4"> 
+							C: Bertha Benz <input id="q4" type="radio" value="c" name="q4"> 
+							D: Gottlieb Daimler <input id="q4" type="radio" value="f" name="q4"> 
+						</div>
 					</div>
 				</div>
-					<div class="panel panel-default panel-heading">
-					What is the fifth question?
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						Elon Musk made the electric car popular again but who built the first one?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_5">
+							A: Anyos Jedlik in 1828 <input id="q5" type="radio" value="c" name="q5"> 
+							B: Thomas Edison 1913 <input id="q5" type="radio" value="f" name="q5"> 
+							C: Robert Davidson in 1837 <input id="q5" type="radio" value="f" name="q5"> 
+							D: Henry Kilowatt 1961 <input id="q5" type="radio" value="f" name="q5"> 
+						</div>
 					</div>
 				</div>
-				<div class="panel panel-default panel-heading">
-					What is the sixth question?
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						This is the best selling car of all time?
+					</div>	
 					<div class="panel-body">
-					A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_6">
+							A: Model T <input id="q6" type="radio" value="f" name="q6"> 
+							B: Honda Accord <input id="q6" type="radio" value="f" name="q6"> 
+							C: volkswagon Beetle <input id="q6" type="radio" value="f" name="q6"> 
+							D: Toyota Corolla <input id="q6" type="radio" value="c" name="q6"> 
+						</div>
 					</div>
 				</div>
-				<div class="panel panel-default panel-heading">
-					What is the seventh question?
-						<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
-					</div>
-				</div>	
-				<div class="panel panel-default panel-heading">
-					What is the eight questions?
+		
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						How many cars are mmade on average every day?
+					</div>	
 					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
-					</div>
-				</div>														
-				<div class="panel panel-default panel-heading">
-					What was the ninth question?
-					<div class="panel-body">
-						A: Abcdefg <input id="" type="radio" value=""> 
-						B: Abcdefg <input id="" type="radio" value=""> 
-						C: Abcdefg <input id="" type="radio" value=""> 
-						D: Abcdefg <input id="" type="radio" value=""> 
+						<div id="question_7">
+							A: 87,000 <input id="q7" type="radio" value="f" name="q7"> 
+							B: 165,000 <input id="q7" type="radio" value="c" name="q7"> 
+							C: 550,000 <input id="q7" type="radio" value="f" name="q7"> 
+							D: 730,000 <input id="q7" type="radio" value="f" name="q7"> 
+						</div>
 					</div>
 				</div>
+
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						When was the rear view mirror first used on cars?
+					</div>	
+					<div class="panel-body">
+						<div id="question_8">
+							A: 1911 Indy 500 <input id="q8" type="radio" value="f" name="q8"> 
+							B: 1906 on the Argus <input id="q8" type="radio" value="c" name="q8"> 
+							C: 1914 US patent <input id="q8" type="radio" value="f" name="q8"> 
+							D: 1909 in <i>The Woman and the Car</i> <input id="q8" type="radio" value="f" name="q8"> 
+						</div>
+					</div>
+				</div>
+
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						Volkswagon name several of its cars after?
+					</div>	
+					<div class="panel-body">
+						<div id="question_9">
+							A: Historical People <input id="q9" type="radio" value="f" name="q9"> 
+							B: Locations <input id="q9" type="radio" value="f" name="q9"> 
+							C: Norse Gods <input id="q9" type="radio" value="f" name="q9"> 
+							D: Wind <input id="q9" type="radio" value="c" name="q9"> 
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="panel panel-default questions">
+					<div class="panel-heading">
+						What is more expensive than a gallon of gallon a of?
+					</div>	
+					<div class="panel-body">
+						<div id="question_10">
+							A: Scorpion Venom <input id="q10" type="radio" value="c" name="q10"> 
+							B: Channel No. 5 <input id="q10" type="radio" value="f" name="q10"> 
+							C: Ink <input id="q10" type="radio" value="c" name="q10"> 
+							D: Coffee <input id="q10" type="radio" value="f" name="q10"> 
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default finished">
+					<div class="panel-body">
+						Correct:<span id="correct">0</span>
+						<br>
+						Incorrect:<span id="wrong">0</span>
+						<br>
+						Unanswered:<span id="unanswered">0</span>
+					</div>
+				</div>
+			
 			</div>				
 		</div>
 	</div>
 	<!--Javascript-->
-	<script type="text/javascript" src="assets/javascript/trivia_game.js" ></script>
+	<script type="text/javascript" src="assets/javascript/game.js" ></script>
 	</body>
 </html>
