@@ -6,6 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" >
 		<!--Bootstap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Poiret+One" rel="stylesheet">
 		<!--Main CSS-->
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" >
 		<!--jQuery-->
@@ -16,13 +18,15 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="jumbotron">
-					<h1>Trivia Game</h1>
+					<h1 style="color: #B85444">Car Trivia</h1>
+					<img src="assets/images/life.jpg"/>
 					<h3 style="text-align: center"><span id="timer">60</span></h3>
 				</div>
 
 
-				<div class="panel panel-default panel-heading start_button" style="text-align: center">
-					<button>Start</button>
+				<div class="panel panel-default panel-body start_button" style="text-align: center">
+					<div style="height: 20px; width: 100%;"> <div style="margin-left: 100px"> Start </div> </div>
+					<div><button> | </button></div>
 				</div>
 
 				<div class="panel panel-default questions" >
@@ -32,10 +36,10 @@
 					<div class="panel-body">
 						<div id="question_1">
 							<!--inputs have to have same name or mulitple can be selected by user-->
-							A: Chevrolet Impala <input id="q1_C" type="radio" value="f" name="q1"> 
-							B: Ford Galaxy <input id="q1_W1" type="radio" value="f" name="q1"> 
-							C: Pontica GTO <input id="q1_W2" type="radio" value="c" name="q1"> 
-							D: Dodge Charger <input id="q1_W2" type="radio" value="f" name="q1"> 
+							A: Chevrolet Impala <input id="q1_C" type="radio" value="f" name="q1">
+							B: Ford Galaxy  <input id="q1_W1" type="radio" value="f" name="q1">
+							C: Pontica GTO <input id="q1_W2" type="radio" value="c" name="q1">
+							D: Dodge Charger  <input id="q1_W2" type="radio" value="f" name="q1">
 						</div>
 					</div>
 				</div>

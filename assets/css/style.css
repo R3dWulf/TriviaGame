@@ -1,10 +1,33 @@
+body {
+	background-color: #7A848D;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+img {
+	border-radius: 5px;
+	margin-left: 40px;
+}
+
 button {
 	height: 100px;
 	width: 100px;
 	font-size: 24px;
-	font-weight: bold;
+	border-radius: 50%;
 }
 
-.questions {
-	/*display: none;*/
+button:focus {
+	outline:0;
+}
+
+.panel-body {
+	background-color: #DDC750;
+}
+
+.jumbotron {
+	background-color: #8CAEAB;
+}
+
+.panel {
+	border-color: #3A373E;
 }

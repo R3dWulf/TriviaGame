@@ -4,6 +4,8 @@ var interValId; //place holder
 var correctAnswers = 0;
 var wrongAnswers = 0;
 var unanswered = 10;
+var car_Start = new Audio('car_start.mp3');
+var delayQuiz;
 
 
 
@@ -17,11 +19,16 @@ $('document').ready(function(){
 
 	//Show questions and timer when the start button is clicked
 	$('.start_button').on("click", function(){
-		$('.start_button').hide();
-		$('.questions').show();
-		$('#timer').show();
-
+		$('button').css("transform", "rotate(30deg)");
+		car_Start.play();
+		delayQuiz = setTimeout(function(){
+			$('.start_button').hide();
+			$('.questions').show();
+			$('#timer').show();
+		}, 1000 * 2.5);
 	});
+
+
 
 	// Start the startTimer function that is neccesary to activate the timer 
 	$('.start_button').on("click", startTimer);
