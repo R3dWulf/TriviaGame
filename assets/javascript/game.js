@@ -69,6 +69,7 @@ $('#question_1 input').on('change', function() {
    if( $('input:radio[name=q1]:checked', '#question_1').val() == "c" ){	
    		correctAnswers++;
    		console.log(correctAnswers);
+         //Disable radio buttons so that the on change function cannot keep adding to vaiables
    		$("input:radio[name=q1]").attr('disabled', true);
    } 
 
